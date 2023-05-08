@@ -1,8 +1,64 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
 body {
+    font-family: 'Inter', sans-serif;
     text-align: center;
+    padding-top: 160px;
+    background-image: url(/imagens/Horror\ Game\ Landing\ Page\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 100vh;
+}
+
+h3 {
+    font-size: 16px;
+    line-height: 19px;
+    color:  white;
+}
+
+h3 span {
+    color: #FFC700;  
 }
 
 h1 {
+    font-family: 'Emilys Candy', cursive;
     color: #FFC700;
-    border: 1px solid blue;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 80px;
+}
+
+p {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 72px;
+}
+
+a {
+    padding: 12px 32px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+p {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 72px;
+    color: white;
+    opacity: .7;
+}
+
+.btn-secundaria {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.btn-primaria {
+    text-decoration: none;
+    color: black;
+    background-color: #FFC700;
 }
